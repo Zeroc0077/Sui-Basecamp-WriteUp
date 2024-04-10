@@ -1,0 +1,9 @@
+[package]
+name = 'dogwifcap'
+version = '1.0.0'
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.21.1" }
+
+[addresses]
+challenge = "0xf129110eb8e24ffa8c0944abffec7a26928e7fcb79e08c191c59abdc9bc238a9"
