@@ -1,0 +1,9 @@
+[package]
+name = 'zk_birthday'
+version = '1.0.0'
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.21.1" }
+
+[addresses]
+challenge = "0xb2c332684d7a47dcf8b29c36fac58b621e985bc505a91c197c1b75e7bd50584a"
