@@ -1,0 +1,1 @@
+sui move build --silence-warnings --skip-fetch-latest-git-deps

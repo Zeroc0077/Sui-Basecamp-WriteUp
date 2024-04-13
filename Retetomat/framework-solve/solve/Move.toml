@@ -1,0 +1,15 @@
+[package]
+name = "vending_machine"
+license = "MIT"          
+authors = ["Fineas Silaghi (fedex@osec.io)"]   
+edition = "2024.alpha"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.21.1" }
+
+[addresses]
+vending_machine = "0x0"
+
+[dependencies.retetomat]
+local = '../dependency'
+

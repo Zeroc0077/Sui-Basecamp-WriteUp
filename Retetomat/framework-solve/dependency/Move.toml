@@ -1,0 +1,11 @@
+[package]
+name = "retetomat"
+license = "MIT"
+authors = ["Fineas Silaghi (fedex@osec.io)"]
+edition = "2024.alpha"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "mainnet-v1.21.1" }
+
+[addresses]
+retetomat = "0x26ac27ee0750fa7307280db788d320fe4fb4976c2cee085cffe9a89498f7e656"
